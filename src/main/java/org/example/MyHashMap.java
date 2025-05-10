@@ -29,7 +29,7 @@ public class MyHashMap<K,V> {
        }
 
        public int hash(K key){
-              return (int)hashCode()%map.length;
+              return (int)hashCode(key)%map.length;
        }
 
        public void put(K key,V value){
