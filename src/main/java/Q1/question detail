@@ -15,7 +15,7 @@ Entities
 1. Parking Lot
 2. Vechile
 3. Receipt
-4. SecurityGuard
+4. User
 
 Relationship
 
@@ -28,7 +28,7 @@ Parking Lot        Vechile
 Vechile         Receipt
    1     ->        1
 
-Vechile         SecurityGuard
+Vechile         User
    1     ->        1
 
 Attributes
