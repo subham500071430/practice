@@ -1,0 +1,39 @@
+//
+
+parking lot system
+
+1. will there be multiple parking lots ? yes
+2. what king of vechile can park ? all types ( 2 wheeler , 4 wheeler)
+4. will there be any specific no for each parking-lot
+5. is parking-lot chargable ? yes
+6. how many free spots are remaining in parking lot
+
+
+
+Entities
+0.ParkingManagementSystem
+1. Parking Lot
+2. Vechile
+3. Receipt
+4. SecurityGuard
+
+Relationship
+
+ParkingManagementSystem         Parking Lot
+        1                 ->      Many
+
+Parking Lot        Vechile
+      1     ->        1
+
+Vechile         Receipt
+   1     ->        1
+
+Vechile         SecurityGuard
+   1     ->        1
+
+Attributes
+1. Parking LotSystem -> List<ParkingLot> used, totalAvailableParkingLots() , List<ParkingLot> available , park() , unPark()
+2. Parking Lot -> id , floor_no , Vechile parkedVechile , isParkingLotAvailable()
+3. Vechile -> vechile_no , vechileTypeEnum
+4. Receipt -> receipt_id , vechile_no , amount , generateReceipt() , has-a user
+5. User -> name , has-a vechile

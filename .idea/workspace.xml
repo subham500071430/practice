@@ -4,26 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ac037a74-cec5-4c81-beb4-19818d04b58a" name="Changes" comment="interface segregation principle">
-      <change afterPath="$PROJECT_DIR$/src/main/java/designPatterns/creational/abstractFactory/Chair.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/designPatterns/creational/abstractFactory/FurnitureFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/designPatterns/creational/abstractFactory/ModernChair.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/designPatterns/creational/abstractFactory/ModernTable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/designPatterns/creational/abstractFactory/Table.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/designPatterns/creational/abstractFactory/VictorianChair.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/designPatterns/creational/abstractFactory/VictorianTable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/designPatterns/creational/factory/BMW.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/designPatterns/creational/factory/BMWFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/designPatterns/creational/factory/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/designPatterns/creational/factory/Mercedes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/designPatterns/creational/factory/MercedesFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/designPatterns/creational/factory/Swift.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/designPatterns/creational/factory/SwiftFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/designPatterns/creational/factory/Vechile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/designPatterns/creational/factory/VechileFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/DependencyInversion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Practice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/TopKElement.java" afterDir="false" />
+    <list default="true" id="ac037a74-cec5-4c81-beb4-19818d04b58a" name="Changes" comment="structural design pattern">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -41,6 +22,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4
@@ -51,24 +33,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Client.executor": "Run",
-    "Application.DeadLockExample.executor": "Run",
-    "Application.DeadLockFixExample.executor": "Run",
-    "Application.EmployeeProb.executor": "Run",
-    "Application.JavaStreams.executor": "Run",
-    "Application.Main.executor": "Run",
-    "Application.Multithreading.executor": "Run",
-    "Application.Practice.executor": "Run",
-    "Application.ReentrantLockExample.executor": "Run",
-    "Application.Test.executor": "Run",
-    "Application.TopKElement.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Client.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DeadLockExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DeadLockFixExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.EmployeeProb.executor&quot;: &quot;Run&quot;,
+    &quot;Application.JavaStreams.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Multithreading.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Practice.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ReentrantLockExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Test.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TopKElement.executor&quot;: &quot;Run&quot;,
+    &quot;Application.UserSorter.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="designPatterns.creational.factory" />
@@ -151,14 +134,63 @@
       <option name="project" value="LOCAL" />
       <updated>1747167567544</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="design pattern">
+      <option name="closed" value="true" />
+      <created>1747425320336</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1747425320336</updated>
+    </task>
+    <task id="LOCAL-00008" summary="notification system lld basic">
+      <option name="closed" value="true" />
+      <created>1747771045234</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1747771045234</updated>
+    </task>
+    <task id="LOCAL-00009" summary="structural design pattern">
+      <option name="closed" value="true" />
+      <created>1747771098290</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1747771098290</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="changes" />
     <MESSAGE value="java 8 , design principles" />
     <MESSAGE value="lsp" />
     <MESSAGE value="interface segregation principle" />
-    <option name="LAST_COMMIT_MESSAGE" value="interface segregation principle" />
+    <MESSAGE value="design pattern" />
+    <MESSAGE value="notification system lld basic" />
+    <MESSAGE value="structural design pattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="structural design pattern" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/designPatterns/behavioral/observer/NikeShoeObservable.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
