@@ -25,7 +25,7 @@ ParkingManagementSystem         Parking Lot
 Parking Lot        Vechile
       1     ->        1
 
-Vechile         Receipt
+Receipt         Vechile
    1     ->        1
 
 Vechile         User
