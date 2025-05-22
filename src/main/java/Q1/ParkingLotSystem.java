@@ -2,17 +2,12 @@ package Q1;
 
 import java.util.List;
 
-public class ParkingLotSystem {
+public interface ParkingLotSystem {
 
-    List<ParkingLot> used;
-    List<ParkingLot> available;
+       public boolean park(Vechile vechile, int id);
 
-    public void park(Vechile vechile){
+       public boolean unPark(Vechile vechile);
 
-    }
-
-    public void unPark(Vechile vechile){
-
-    }
+       public List<ParkingLot> getAvailableParkingLots();
 
 }

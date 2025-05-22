@@ -4,13 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ac037a74-cec5-4c81-beb4-19818d04b58a" name="Changes" comment="parking-lot system">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Q1/ParkingLot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Q1/ParkingLotSystem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Q1/Receipt.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Q1/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Q1/Vechile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Q1/VechileType.java" afterDir="false" />
+    <list default="true" id="ac037a74-cec5-4c81-beb4-19818d04b58a" name="Changes" comment="parking-lot system updated">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Q1/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Q1/ParkingLotSystemImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Q1/ParkingLot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Q1/ParkingLot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Q1/ParkingLotSystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Q1/ParkingLotSystem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Q1/Receipt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Q1/Receipt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Q1/Vechile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Q1/Vechile.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,9 +21,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Enum" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -184,7 +185,15 @@
       <option name="project" value="LOCAL" />
       <updated>1747856912678</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="parking-lot system updated">
+      <option name="closed" value="true" />
+      <created>1747907837837</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1747907837837</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -207,7 +216,8 @@
     <MESSAGE value="notification system lld basic" />
     <MESSAGE value="structural design pattern" />
     <MESSAGE value="parking-lot system" />
-    <option name="LAST_COMMIT_MESSAGE" value="parking-lot system" />
+    <MESSAGE value="parking-lot system updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="parking-lot system updated" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

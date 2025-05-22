@@ -6,7 +6,7 @@ public class Receipt {
        int amount;
        Vechile vechile;
 
-       public void createReceipt(int receiptId,int amount,Vechile vechile){
+       public Receipt(int receiptId,int amount,Vechile vechile){
              this.receiptId = receiptId;
              this.amount = amount;
              this.vechile = vechile;
