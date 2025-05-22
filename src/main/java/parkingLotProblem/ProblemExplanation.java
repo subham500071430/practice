@@ -15,7 +15,7 @@ Details about the Vehicles:
 Every vehicle will have a type, registration number, and color.
 Different Types of Vehicles:
 Car
-        Bike
+Bike
 Truck
 Details about the Parking Slots:
 Each type of slot can park a specific type of vehicle.
