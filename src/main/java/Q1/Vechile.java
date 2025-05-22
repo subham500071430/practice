@@ -1,5 +1,6 @@
 package Q1;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class Vechile {
@@ -10,7 +11,7 @@ public class Vechile {
               return num;
        }
 
-       List<Receipt> receipts;
+       List<Receipt> receipts = new ArrayList<>();
        VechileType vechileType;
        ParkingLot parkingLot;
 
