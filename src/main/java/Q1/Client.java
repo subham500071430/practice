@@ -9,8 +9,8 @@ public class Client {
            Vechile vechile1 = new Vechile("KA01JY0407",VechileType.TWO_WHEELER);
            User user1 = new User("Subham",vechile1);
 
-           Vechile vechile2 = new Vechile("KA01JY0408",VechileType.TWO_WHEELER);
-           User user2 = new User("Aman",vechile2);
+           Vechile vechile2 = new Vechile("KA01JY0408",VechileType.FOUR_WHEELER);
+           User user2 = new User("Amandeep",vechile2);
 
            // let's assume we have 2 floor
 

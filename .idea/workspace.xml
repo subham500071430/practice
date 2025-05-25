@@ -4,11 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ac037a74-cec5-4c81-beb4-19818d04b58a" name="Changes" comment="parking-lot system updated">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="ac037a74-cec5-4c81-beb4-19818d04b58a" name="Changes" comment="print odd even number using multiple threads">
+      <change afterPath="$PROJECT_DIR$/src/main/java/solid/lsp/Bicycle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/solid/lsp/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/solid/lsp/MotorVechile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/solid/lsp/Vechile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/solid/ocp/BlackCoffee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/solid/ocp/Cappucinno.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/solid/ocp/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/solid/ocp/Coffee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/solid/ocp/CoffeeMachine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/solid/srp/Invoice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/solid/srp/Product.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Q1/ParkingLotSystemImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Q1/ParkingLotSystemImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Q1/Vechile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Q1/Vechile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Q1/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Q1/Client.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,8 +28,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -48,26 +57,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Client.executor": "Run",
-    "Application.DeadLockExample.executor": "Run",
-    "Application.DeadLockFixExample.executor": "Run",
-    "Application.EmployeeProb.executor": "Run",
-    "Application.JavaStreams.executor": "Run",
-    "Application.Main.executor": "Run",
-    "Application.Multithreading.executor": "Run",
-    "Application.Practice.executor": "Run",
-    "Application.ReentrantLockExample.executor": "Run",
-    "Application.Test.executor": "Run",
-    "Application.TopKElement.executor": "Run",
-    "Application.UserSorter.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Client.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DeadLockExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DeadLockFixExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.EmployeeProb.executor&quot;: &quot;Run&quot;,
+    &quot;Application.JavaStreams.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Multithreading.executor&quot;: &quot;Run&quot;,
+    &quot;Application.OddEven.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Practice.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ReentrantLockExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Test.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TopKElement.executor&quot;: &quot;Run&quot;,
+    &quot;Application.UserSorter.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="parkingLotProblem" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="designPatterns.creational.factory" />
     </key>
@@ -189,7 +202,39 @@
       <option name="project" value="LOCAL" />
       <updated>1747907837837</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="parking lot system working">
+      <option name="closed" value="true" />
+      <created>1747934218062</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1747934218062</updated>
+    </task>
+    <task id="LOCAL-00013" summary="parking lot system lld requirement">
+      <option name="closed" value="true" />
+      <created>1747934982840</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1747934982840</updated>
+    </task>
+    <task id="LOCAL-00014" summary="parking lot system lld requirement">
+      <option name="closed" value="true" />
+      <created>1747935078556</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1747935078556</updated>
+    </task>
+    <task id="LOCAL-00015" summary="print odd even number using multiple threads">
+      <option name="closed" value="true" />
+      <created>1747945880147</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1747945880147</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -213,7 +258,10 @@
     <MESSAGE value="structural design pattern" />
     <MESSAGE value="parking-lot system" />
     <MESSAGE value="parking-lot system updated" />
-    <option name="LAST_COMMIT_MESSAGE" value="parking-lot system updated" />
+    <MESSAGE value="parking lot system working" />
+    <MESSAGE value="parking lot system lld requirement" />
+    <MESSAGE value="print odd even number using multiple threads" />
+    <option name="LAST_COMMIT_MESSAGE" value="print odd even number using multiple threads" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
