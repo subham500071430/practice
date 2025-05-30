@@ -4,20 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ac037a74-cec5-4c81-beb4-19818d04b58a" name="Changes" comment="print odd even number using multiple threads">
-      <change afterPath="$PROJECT_DIR$/src/main/java/solid/lsp/Bicycle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/solid/lsp/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/solid/lsp/MotorVechile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/solid/lsp/Vechile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/solid/ocp/BlackCoffee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/solid/ocp/Cappucinno.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/solid/ocp/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/solid/ocp/Coffee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/solid/ocp/CoffeeMachine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/solid/srp/Invoice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/solid/srp/Product.java" afterDir="false" />
+    <list default="true" id="ac037a74-cec5-4c81-beb4-19818d04b58a" name="Changes" comment="dependency inversion principle">
+      <change afterPath="$PROJECT_DIR$/src/main/java/multithreading/ExecutorsFramework.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Q1/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Q1/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designPatterns/structural/decorator/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/designPatterns/structural/decorator/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/JavaStreams.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/JavaStreams.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,26 +48,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Client.executor&quot;: &quot;Run&quot;,
-    &quot;Application.DeadLockExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.DeadLockFixExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.EmployeeProb.executor&quot;: &quot;Run&quot;,
-    &quot;Application.JavaStreams.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Multithreading.executor&quot;: &quot;Run&quot;,
-    &quot;Application.OddEven.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Practice.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ReentrantLockExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Test.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TopKElement.executor&quot;: &quot;Run&quot;,
-    &quot;Application.UserSorter.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Client.executor": "Run",
+    "Application.DeadLockExample.executor": "Run",
+    "Application.DeadLockFixExample.executor": "Run",
+    "Application.EmployeeProb.executor": "Run",
+    "Application.ExecutorsFramework.executor": "Run",
+    "Application.JavaStreams.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.Multithreading.executor": "Run",
+    "Application.OddEven.executor": "Run",
+    "Application.Practice.executor": "Run",
+    "Application.ReentrantLockExample.executor": "Run",
+    "Application.Test.executor": "Run",
+    "Application.TopKElement.executor": "Run",
+    "Application.UserSorter.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="parkingLotProblem" />
@@ -234,7 +229,31 @@
       <option name="project" value="LOCAL" />
       <updated>1747945880147</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="solid principles">
+      <option name="closed" value="true" />
+      <created>1748183903558</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1748183903558</updated>
+    </task>
+    <task id="LOCAL-00017" summary="interface segregation principle">
+      <option name="closed" value="true" />
+      <created>1748185404547</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1748185404547</updated>
+    </task>
+    <task id="LOCAL-00018" summary="dependency inversion principle">
+      <option name="closed" value="true" />
+      <created>1748185912832</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1748185912832</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -252,7 +271,6 @@
     <MESSAGE value="changes" />
     <MESSAGE value="java 8 , design principles" />
     <MESSAGE value="lsp" />
-    <MESSAGE value="interface segregation principle" />
     <MESSAGE value="design pattern" />
     <MESSAGE value="notification system lld basic" />
     <MESSAGE value="structural design pattern" />
@@ -261,7 +279,10 @@
     <MESSAGE value="parking lot system working" />
     <MESSAGE value="parking lot system lld requirement" />
     <MESSAGE value="print odd even number using multiple threads" />
-    <option name="LAST_COMMIT_MESSAGE" value="print odd even number using multiple threads" />
+    <MESSAGE value="solid principles" />
+    <MESSAGE value="interface segregation principle" />
+    <MESSAGE value="dependency inversion principle" />
+    <option name="LAST_COMMIT_MESSAGE" value="dependency inversion principle" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -270,6 +291,16 @@
           <url>file://$PROJECT_DIR$/src/main/java/designPatterns/behavioral/observer/NikeShoeObservable.java</url>
           <line>34</line>
           <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/designPatterns/structural/decorator/MilkDecorator.java</url>
+          <line>5</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/designPatterns/structural/decorator/SugarDecorator.java</url>
+          <line>5</line>
+          <option name="timeStamp" value="8" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

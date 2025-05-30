@@ -9,5 +9,6 @@ public class Client {
             coffee = new SugarDecorator(coffee);
 
             System.out.println(coffee.getDescription());
+            System.out.println(coffee.getCost());
     }
 }
