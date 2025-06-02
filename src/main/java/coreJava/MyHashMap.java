@@ -1,29 +1,107 @@
 package coreJava;
 
-import java.lang.Object;
-import java.util.Objects;
+import java.util.LinkedList;
 
-public class MyHashMap {
+public class MyHashMap<K,V> {
 
-       String name;
-       int roll_no;
+       // method to implement ...put get containsKey resize
 
-       @Override
-       public boolean equals(Object obj) {
+       LinkedList<Node<K,V>>[] map;
+       private static final int initial_capacity = 16;
+       private static final double load_factor = 0.75d;
+       private static int size = 0;
 
-              if(obj == this) return true;
+       static class Node<K,V> {
+           K key;
+           V value;
+           Node<K,V> next;
 
-              MyHashMap object = (MyHashMap) obj;
+           Node(K key,V value){
+               this.key = key;
+               this.value = value;
+               this.next = null;
+           }
+       }
 
-              if(obj == null || obj.getClass() != getClass()) return false;
+       //constructor;
+       public MyHashMap(){
+              map = new LinkedList[initial_capacity];
+       }
 
-              if(object.name.equals(this.name) && object.roll_no == roll_no) return true;
+       public int hash(K key){
+              return (int)hashCode(key)%map.length;
+       }
+
+       public void put(K key,V value){
+
+              int index = hash(key);
+
+              if(map[index]==null){
+                  map[index] = new LinkedList<>();
+                  map[index].add(new Node(key,value));
+              }
+              else{
+
+                  LinkedList<Node<K,V>> list = map[index];
+
+                  for(Node<K,V> node : list){
+                         if(node.key == key){
+                             node.value = value;
+                             return ;
+                         }
+                  }
+
+              }
+
+              size++;
+       }
+
+       public V get(K key){
+
+              int index = hash(key);
+
+              if(map[index]!=null) {
+                  for (Node<K, V> node : map[index]) {
+
+                      if (node.key == key) {
+                          return node.value;
+                      }
+                  }
+              }
+              return null;
+       }
+
+       public boolean containsKey(K key){
+
+              if(map[hash(key)] != null){
+                   for(Node<K,V> node : map[hash(key)]){
+                       if(node.key == key) return true;
+                   }
+              }
 
               return false;
        }
 
-       @Override
-       public int hashCode() {
-           return Objects.hash(name,roll_no);
+       public boolean remove(K key){
+
+             if(map[hash(key)] != null){
+                  for(Node<K,V> node : map[hash(key)]){
+                      if(node.key == key){
+                          map[hash(key)].remove(node);
+                          size--;
+                          return true;
+                      }
+                  }
+             }
+
+             return false;
+       }
+
+       public int size(){
+              return size;
+       }
+
+       private int hashCode(K key) {
+            return (int)key*5;
        }
 }
