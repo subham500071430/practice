@@ -1,4 +1,4 @@
-package producer.consumer;
+package multithreading.producer.consumer;
 
 public class Main {
 
