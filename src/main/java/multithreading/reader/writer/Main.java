@@ -2,7 +2,7 @@ package multithreading.reader.writer;
 
 public class Main {
 
-    public static void main(String[] args) throws InterruptedException {
+    public static void main(String[] args) {
 
         Resource resource = new Resource();
 
@@ -18,9 +18,6 @@ public class Main {
 
         threadA.start();
         threadB.start();
-        threadA.join();
-        threadB.join();
-
 
     }
 }
