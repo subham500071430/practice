@@ -1,11 +1,9 @@
 package coreJava;
 
-import java.util.Arrays;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 import java.util.function.Function;
 import java.util.stream.Collectors;
+import java.util.stream.IntStream;
 import java.util.stream.Stream;
 
 public class JavaStream {
@@ -43,7 +41,7 @@ public class JavaStream {
                         (name1, name2) -> name1  // handle duplicates
                 ));
 
-        personMap.forEach((id,name) -> System.out.println(id +" "+name));*/
+        personMap.forEach((id,name) -> System.out.println(id +" "+name));
 
         List<String> list3 = Arrays.asList("Subham","Ritik","Amandeep","Prakash","Subham");
 
@@ -64,6 +62,33 @@ public class JavaStream {
 
         Stream.concat(list1.stream(),list2.stream()).distinct().toList();
         Stream<Integer> stream = Stream.of(1,2,3,4);
+
+        List<String> list3 = Arrays.asList("Subham","Ritik","Amandeep","Prakash","Subham");
+
+        Map<String,List<String>> map = list3.stream().collect(Collectors.groupingBy(Function.identity()));
+
+        Map<Integer,List<String>> res = list3.stream().collect(Collectors.groupingBy(String :: length));
+
+        // Write a Java 8 program to reverse a string using Stream API.
+        String a = "subhamsubhsubh";
+
+        String reversed = IntStream.rangeClosed(1,a.length()).mapToObj(
+                i -> String.valueOf(a.charAt(a.length()-i))
+        ).collect(Collectors.joining());
+
+
+        Map<Character , Long> freq = a.chars().mapToObj(c -> (char) c).
+                collect(Collectors.groupingBy(Function.identity(), LinkedHashMap::new , Collectors.counting()));
+
+        Character ch = freq.entrySet().stream().filter((e) -> e.getValue() == 1).findFirst().get().getKey();
+
+        System.out.println(ch);*/
+
+        List<List<Integer>> list = Arrays.asList(Arrays.asList(1,2),Arrays.asList(3,4,5,6,7,8,9,10));
+
+        List list4 = list.stream().flatMap(List::stream).collect(Collectors.toList());
+
+        System.out.println(list4);
     }
 }
 

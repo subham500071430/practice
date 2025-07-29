@@ -15,4 +15,14 @@ public class PrintABC {
 
 
     }
+
+    public int binarySearch() {
+          findMiddle();
+          return 0;
+    }
+
+    public static void findMiddle(){
+        return;
+    }
+
 }
