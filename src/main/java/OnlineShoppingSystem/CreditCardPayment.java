@@ -1,6 +1,6 @@
 package OnlineShoppingSystem;
 
-public class CreditCardPayment extends Payment{
+public class CreditCardPayment implements PaymentStrategy{
 
     @Override
     public void processPayment(int amount) {
