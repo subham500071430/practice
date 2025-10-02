@@ -1,28 +1,30 @@
 package java8;
 
-import java.util.function.Function;
-import java.util.stream.Collectors;
-
-public class Q1 {
+public class Q1 implements A,B{
 
     public static void main(String[] args) {
 
-        String s = "hello";
+           Q1 obj = new Q1();
 
+           obj.add(10,20);
 
-        String res = s.chars().mapToObj(c -> (char) c).collect(Collectors.toList())
-                .stream().collect(Collectors.groupingBy(Function.identity(),
-                        Collectors.counting())).entrySet().stream().sorted((e1, e2) ->
-                        (int) (e2.getValue() - e1.getValue())).map(
-                        (entry) -> {
-                            String temp = "";
-                            for (int i = 0; i < entry.getValue(); i++) {
-                                temp += entry.getKey();
-                            }
-                            return temp;
-                        }
-                ).collect(Collectors.joining());
+    }
 
-        System.out.println(res);
+    @Override
+    public int add(int x, int y) {
+        return A.super.add(x, y);
     }
 }
+
+interface A {
+     default int add(int x , int y) {
+         return x+y;
+     }
+}
+
+interface B{
+    default int add(int x , int y) {
+        return x-y;
+    }
+}
+
